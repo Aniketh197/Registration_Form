@@ -15,7 +15,7 @@ function Form(){
                 <label>USN</label>
                 <input type="text" placeholder="DAADDAADDD" name='Usn' value={usn}onChange={(e)=>setUsn(e.target.value)} required/>
                 <label>Email Id</label>
-                <input type="text" placeholder="something@gmail.com" name='Email' value={email} onChange={(e)=>setEmail(e.target.value)}required/>
+                <input type="text" placeholder="username@example.com" name='Email' value={email} onChange={(e)=>setEmail(e.target.value)}required/>
                 <label>Phone Number</label>
                 <input type="text" placeholder="Enter your Phone Number" name='Phone' value={phone}onChange={(e)=>setPhone(e.target.value)} required/>
                 <button type="submit">SUBMIT</button>
